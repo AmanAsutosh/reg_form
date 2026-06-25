@@ -1,0 +1,5 @@
+backend/.env
+backend/node_modules/
+frontend/myapp/node_modules/
+.gitignore
+frontend/myapp/assets

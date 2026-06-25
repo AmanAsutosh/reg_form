@@ -11,7 +11,7 @@ async function getInfo(username){
         const [row]=await db.execute("select * from reg where username=?",[username])
         return row
     }catch(err){
-        console.log("Error from getInfo from hhandleRegistrations.js ",err)
+        console.log("Error from getInfo from handleRegistrations.js ",err)
     }
 }
 async function postPatientData(name,age,symptoms){
